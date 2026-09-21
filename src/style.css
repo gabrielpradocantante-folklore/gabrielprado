@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbf9f4; 
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Convertimos el root en una columna flexible que ocupa toda la pantalla */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
