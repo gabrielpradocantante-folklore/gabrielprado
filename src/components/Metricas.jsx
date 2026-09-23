@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { supabase } from '../services/supabase.js'
+import { supabase } from '../services/supabaseClient.js'
 
 export default function Metricas() {
   const [metricas, setMetricas] = useState({ visitas: 0, me_gusta: 0 })

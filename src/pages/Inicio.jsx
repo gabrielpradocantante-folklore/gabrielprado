@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import { supabase } from '../services/supabase.js'
+import { supabase } from '../services/supabaseClient.js'
 
 export default function Inicio() {
   const polaroids = [
