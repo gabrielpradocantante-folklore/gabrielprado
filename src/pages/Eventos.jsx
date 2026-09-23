@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { supabase } from '../services/supabase'
+import { supabase } from '../services/supabase.js'
 
 export default function Eventos() {
   const [eventos, setEventos] = useState([])
